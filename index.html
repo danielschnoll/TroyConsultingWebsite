@@ -1,232 +1,955 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Troy Consulting Club</title>
-  <!-- JS -->
-  <script type="text/javascript" src=resources/js/jquery-3.0.min.js></script>
-  <script type="text/javascript" src=resources/js/materialize.js></script>
-  <script type="text/javascript" src=resources/js/main.js></script>
-  <script type="text/javascript" src=resources/js/init.js></script>
 
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Kreo</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="resources/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="resources/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.min.css">
+   <link rel="stylesheet" href="css/main.css">     
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">TROY CONSULTING CLUB</a>
-      <ul class="right hide-on-med-and-down">
 
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Contact</a></li>
-      </ul>
+	<!-- header
+   ================================================== -->
+   <header id="main-header">
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Contact</a></li>
-      </ul>
-       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Projects</a></li>
-      </ul>
+   	<div class="row">
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Projects</a></li>
-      </ul>
+	      <div class="logo">
+	         <a href="index.html">Kreo</a>
+	      </div>
 
-       <li><a href="#">About</a></li>
-      </ul>
+	      <nav id="nav-wrap">         
+	         
+	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+	         	<span class="menu-icon">Menu</span>
+	         </a>
+         	<a class="mobile-btn" href="#" title="Hide navigation">
+         		<span class="menu-icon">Menu</span>
+         	</a>            
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">About</a></li>
-      </ul>
+	         <ul id="nav" class="nav">
+	            <li><a class="smoothscroll" href="#hero">Home.</a></li>
+		         <li class="current"><a class="smoothscroll" href="#portfolio">Works.</a></li>
+	            <li><a class="smoothscroll" href="#services">Services.</a></li>
+	            <li><a class="smoothscroll" href="#about">About.</a></li>
+	            <li><a class="smoothscroll" href="#contact">Contact.</a></li>
+	         </ul> <!-- end #nav -->
 
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+	      </nav> <!-- end #nav-wrap -->
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">IT Consulting for Businesses by RPI Students</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">We Provide Pro-Bono IT Consulting in the Community of Troy and Beyond Want to Help?</h5>
-        </div>
-        <div class="row center page-scoll">
-          <a href="#DAY_1" id="download-button" class="btn-large waves-effect waves-light teal lighten-1 ">Get Started</a>
-        </div>
-        <br><br>
+	      <ul class="header-social">
+	        	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	        	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	        	<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+	      </ul>      
+
+	   </div>
+
+   </header> <!-- end header -->
+
+
+   <!-- homepage hero
+   ================================================== -->
+   <section id="hero">	
+   	  
+		<div class="row hero-content">
+
+			<div class="twelve columns hero-container">
+
+			   <!-- hero-slider start-->
+			   <div id="hero-slider" class="flexslider">
+
+				   <ul class="slides">
+
+					   <!-- slide -->
+					   <li>
+						   <div class="flex-caption">
+								<h1 class="">Say hello to <span>Kreo</span>. We create awesome and stunning 
+									digital solutions.
+								</h1>	
+									
+								<h3 class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h3>				   
+							</div>						
+					   </li>
+
+					   <!-- slide -->
+					   <li>						
+							<div class="flex-caption">
+								<h1 class="">We are a small design studio dedicated to build great digital
+									products.</h1>
+
+								<h3 class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h3>			   
+							</div>					
+					   </li>
+
+					   <!-- slide -->
+					   <li>
+						   <div class="flex-caption">
+								<h1 class="">Take a look at some of <a class="smoothscroll" href="#portfolio" title="portfolio" >our works</a> or 
+								<a class="smoothscroll" href="#contact" title="contact us">get in touch</a> to discuss how we can help you.</h1>
+
+								<h3 class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h3>			   
+							</div>
+					   </li>					              
+
+				   </ul>
+
+			   </div> <!-- end hero-slider -->				   
+
+	      </div> <!-- end twelve columns-->
+
+		</div> <!-- end row -->	
+
+		<div id="more">
+		      <a class="smoothscroll" href="#services">More About Us<i class="fa fa-angle-down"></i></a>
+		</div> 	
+
+   </section> <!-- end homepage hero -->
+
+
+   <!-- portfolio
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row section-head">
+
+      	<div class="twelve columns">
+
+      		<h1>Our Latest Projects<span>.</span></h1>
+
+	         <hr />               
+
+	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row items">
+
+         <!-- portfolio-wrapper -->
+         <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half">
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-01">
+	                  <img src="images/portfolio/underwater.jpg" alt="Underwater">
+                     <div class="overlay"></div>                       
+                     <div class="portfolio-item-meta">
+     					      <h5>Underwater</h5>
+                        <p>Videography</p>
+     					   </div> 
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+        		</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-02">
+                     <img src="images/portfolio/hotel.jpg" alt="Hotel Sign">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Hotel Sign</h5>
+                           <p>Branding</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-03">
+                     <img src="images/portfolio/beetle.jpg" alt="Beetle">                        
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Beetle</h5>
+                           <p>Webdesign</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-04">
+                     <img src="images/portfolio/banjo-player.jpg" alt="Banjo Player">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Banjo Player</h5>
+                           <p>Photography</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-05">
+                   <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Lighthouse</h5>
+                           <p>Web Development</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-06">
+                     <img src="images/portfolio/girl.jpg" alt="Girl Stuff">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Girl Stuff</h5>
+                           <p>Photography</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-07">                        
+                     <img src="images/portfolio/coffee.jpg" alt="Coffee Cup">                       
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Coffee Cup</h5>
+                           <p>Branding</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-08">
+                     <img src="images/portfolio/judah.jpg" alt="Judah">
+                     <div class="overlay">
+                      	<div class="portfolio-item-meta">
+        					      <h5>Judah</h5>
+                           <p>Webdesign</p>
+        					   </div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>                     
+                  </a>
+               </div>
+       		</div>  <!-- item end -->
+
+         </div> <!-- end portfolio-wrapper -->
+         
+
+         <!-- modal popup
+	   	========================================================= -->
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-underwater.jpg" alt="Underwater" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Underwater</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Videography</span>
+		      </div>
+
+            <div class="link-box group">
+            	<a href="http://www.behance.net">Details</a>
+            	<a href="#" class="popup-modal-dismiss">Close</a>         
+            </div>
+
+	      </div><!-- modal-01 end -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-hotel.jpg" alt="Hotel Sign" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Hotel Sign</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Branding, Web Development</span>
+		      </div>
+
+            <div class="link-box">            	
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 end -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Beetle</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 end -->
+
+			<div id="modal-04" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-banjo-player.jpg" alt="" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Banjo Player</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 end -->
+
+	      <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+	      	<div class="media">
+	      		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+	      	</div>      	
+
+		      <div class="description-box">
+			      <h4>Lighthouse</h4>		      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Web Development</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>		      
+
+	      </div><!-- modal-05 end -->
+
+	      <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-girl.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Girl Stuff</h4>			      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Photography</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 end -->
+
+	      <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-coffee.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Coffee Cup</h4>			      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Branding</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 end -->
+
+	      <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-judah.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Judah</h4>			      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Webdesign</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-08 end -->
+
+      </div>  <!-- end row -->
+
+   </section> <!-- end portfolio -->
+
+
+   <!-- Services Section
+   ================================================== -->
+   <section id="services">
+
+   	<div class="row section-head">
+
+      	<div class="twelve columns">
+
+      		<h1>Our Awesome Services<span>.</span></h1>
+
+	         <hr />      	         
+
+	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row mobile-no-padding">      	
+
+	      <div class="service-list bgrid-third s-bgrid-half tab-bgrid-whole group">
+
+	      	<div class="bgrid">	               
+
+	            <h3>Marketing.</h3>
+
+	            <div class="service-content">	                  
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p> 
+	         	</div>  
+
+				</div> <!-- end bgrid -->
+
+				<div class="bgrid">	              
+
+	            <h3>Videography.</h3>                  
+
+	            <div class="service-content">	                  
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p> 
+	            </div>	              
+
+			   </div> <!-- end bgrid -->
+
+			   <div class="bgrid">	              
+
+	            <h3>Photography.</h3>
+
+	            <div class="service-content">		                  
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+	            </div> 	               
+
+			   </div> <!-- end bgrid -->
+
+				<div class="bgrid">	              
+	                  
+	            <h3>Branding.</h3> 
+
+	            <div class="service-content">	                  
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p> 
+	            </div>                
+
+				</div> <!-- end bgrid -->
+
+			   <div class="bgrid">
+
+	            <h3>Web Design.</h3>
+
+	            <div class="service-content">	                  
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+	            </div>	               
+
+			   </div> <!-- end bgrid -->
+
+			   <div class="bgrid">	               
+
+	            <h3>Web Development.</h3>
+
+	            <div class="service-content">
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+	            </div>	               
+
+			   </div> <!-- end bgrid -->
+
+	      </div> <!-- end service-list -->	      
+
+      </div> <!-- end row -->      
+
+   </section> <!-- end services -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row section-head">
+
+      	<div class="twelve columns">
+
+      		<h1>Who Are We<span>.</span></h1>
+
+	         <hr />     	    
+
+	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+	      </div> <!-- end section-head -->
 
       </div>
-    </div>
-    <div class="parallax" >
-      <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920px" height="1080px" preserveAspectRatio="xMidYMid slice">
-        <defs>
-          <mask id="mask" x="0" y="0" width="1920" height="1080" >
-                <rect x="0" y="0" width="1920" height="1080"/>
-                <!-- <text x="960" y="1em">Hello</text> -->
-               <!-- <text x="960" y="90%">SVG</text> -->
-          </mask>
-        </defs>
-        <rect x="0" y="0" width="1920" height="1080"/>
-      </svg>
-      <video autoplay loop muted>
-        <source src="resources/background_1.mp4" type="video/mp4">
-      </video> 
-<!--       <iframe width="560" height="315" src="https://www.youtube.com/embed/vpj0FkWBKlo?autoplay=1&showinfo=0&loop=1&list=PLEe3NFgWxk-nwWnaMD5UdPabi2F7HqIDt" frameborder="0" allowfullscreen></iframe> -->
-    </div>
-  </div>
+
+      <div class="row mobile-no-padding">       	
+
+      	<div class="process bgrid-half tab-bgrid-whole group">
+
+      		<div class="bgrid">
+
+			      <h3>Our Process.</h3>	
+
+			      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+			      </p>
+
+		   	</div>
+
+      		<div class="bgrid">
+
+			     	<h3>Our Approach.</h3>
+
+			     	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+			   	</p>	
+
+		      </div> 
+
+		      <div class="bgrid">
+
+			     	<h3>Our Goal.</h3>	
+
+			     	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+			      </p>
+
+		      </div>
+
+		      <div class="bgrid">
+
+			      <h3>Our Mission.</h3>
+
+			      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+			      </p>	
+
+		      </div>
+
+      	</div> <!-- end process -->      	
+
+     	</div> <!-- end row -->
 
 
-  <div class="container">
-    <div class="section">
+      <div class="row team section-head">
 
-      <!--   Icon Section   -->
+   		<div class="twelve columns">
+
+	         <h1>Meet Our Team<span>.</span></h1>
+
+	         <hr />	         
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <a href="wiki.html#Meet_Sir_Robin"><h5 class="center">Quickly Gain Hands On Experience</h5></a>
 
-            <p class="light">We encourage our members to reach out to their favorite small businesses and educate them on the assistance Troy Consulting Club provides them with. The knowledge from members with various majors, Computer Science, IT, Web Design, and Business Management, will allow us to adequately prepare you to positively assist local businesses. That way, as soon as you've lined up a project, we'll make sure you are on track with your milestones. We guarantee you will be turning each business’ websites into ones they have only dreamed of.</p>
-          </div>
-        </div>
+         <div id="team-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half mob-bgrid-whole group">
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <a href="wiki.html#Meet_the_Wumbo_Team"><h5 class="center">Real-World Agile Developement</h5></a>
+            <div class="bgrid member">
 
-            <p class="light">We implement iterative developement methods and employ <a href="https://www.youtube.com/watch?v=XU0llRltyFM">Scrum Methodology</a> which used daily in every big tech company in the world. The knowledge and experience you will gain in the Troy Consulting Club will be indispensable during interviews, internships, and any jobs you may have now or in the future. Not only does this club bolster your résumé, it truly prepares you for life outside the college campus. </p>   
-          </div>
-        </div>
+					<div class="member-pic">
+						<img src="images/team/member01-k.jpg" alt=""/>
+                 	<div class="mask"></div>       	
+               </div>
+               <div class="member-name">
+                  <h3>Naruto Uzumaki</h3>
+                  <span>Creative Director</span>
+               </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <a href="wiki.html#The_Wumpus_World"><h5 class="center">Provide the Best Web Technologies</h5></a>
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
 
-            <p class="light">We pride ourselves on being creative. This means not sticking to a template. We want to give the client the website THEY want. In doing so, we are flexible in our methods and would like to create extensive documentation on different web technologies for the Open Source Community to peruse.</p>
-          </div>
-        </div>
-      </div>
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
 
-    </div>
-  </div>
+            </div> <!-- end member -->
+
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+                  <img src="images/team/member03-k.jpg" alt=""/>
+               	<div class="mask"></div>  
+               </div>
+               <div class="member-name">
+                  <h3>Sasuke Uchiha</h3>
+                  <span>Lead Designer</span>
+               </div>
+
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
+
+            </div> <!-- end member -->
+
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+						<img src="images/team/member04-k.jpg" alt=""/>
+                 	<div class="mask"></div>                          	
+               </div>
+               <div class="member-name">
+                  <h3>Shikamaru Nara</h3>
+                  <span>Designer</span>
+               </div>
+
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
+
+     			</div> <!-- end member -->
+
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+                 	<img src="images/team/member05-k.jpg" alt=""/>
+                 	<div class="mask"></div>  
+               </div>
+               <div class="member-name">
+                  <h3>Sakura Haruno</h3>
+                  <span>Designer</span>
+               </div>
+
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
+
+            </div> <!-- end member -->
+
+         </div> <!-- end team-wrapper -->
+
+      </div> <!-- end row -->
+
+      <div id="call-to-action">	       
+
+		   <div class="row section-ads">
+
+		      <div class="twelve columns">		         		
+
+			      <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost<span>.</span></a></h2>
+
+			      <p>
+			      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+					Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
+					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->					
+					</p>
+
+					<div class="action">
+			         <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" >Sign Up Now</a>
+	         	</div>
+
+			   </div>
+
+		   </div> <!-- end section-ads -->		         	         
+
+	   </div> <!-- end call-to-action -->	           
+
+   </section> <!-- end about -->  
 
 
-  <div class="parallax-container valign-wrapper" id="DAY_1">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <!-- <h5 class="header col s12 light">DAY 1</h5> -->
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="resources/TroyGroomingCo.jpg"></div>
-  </div>
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
 
-  <div class="container">
-    <div class="section">
+      <div class="row content flex-container">
+    
+         <div id="testimonial-slider" class="flexslider">
+
+            <ul class="slides">
+               <li>
+                  <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                  to do what you believe is great work. And the only way to do great work is to love what you do.
+                  If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                  </p>
+
+                  <div class="testimonial-author">
+                    	<img src="images/avatars/avatar-1.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		Steve Jobs
+                    		<span class="position">CEO, Apple.</span>
+                    	</div>
+                  </div>
+             	</li> <!-- end slide -->
+
+               <li>                       
+                  <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                  </p>
+                  <div class="testimonial-author">
+                    	<img src="images/avatars/avatar-2.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		John Doe
+                    		<span>CEO, ABC Corp.</span>
+                    	</div>
+                  </div>                        
+               </li> <!-- end slide -->
+
+            </ul> <!-- end slides -->
+
+         </div> <!-- end flexslider -->         
+        
+      </div> <!-- end row -->
+
+   </section> <!-- end testimonials section -->  
+
+
+   <!-- contact
+   ================================================== -->
+   <section id="contact">
+
+   	<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Get In Touch With Us<span>.</span></h1>
+
+	         <hr />	        
+
+	      </div>
+
+      </div> <!-- end section-head -->
 
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Troy Grooming Co.</h4>
-          <p class="left-align light"> Troy Grooming Co was our very first client and turned out to be a great success story.  Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co  Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co Troy Grooming Co<a href = "http://www.troygroomingco.com/"> Link to Jamie's Custom Web Site.</a> </p>
-        </div>
-      </div>
+      	
+      	<div id="contact-form" class="six columns tab-whole left">
 
-    </div>
-  </div>
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action=""  >
+      			<fieldset>
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <!-- <h5 class="header col s12 light">DAY 2</h5> -->
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="resources/Day2Photo3.png"></div>
-  </div>
+                  <div class="group">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minLength="2" required />
+                  </div>
+                  <div>
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required />
+	               </div>
+                  <div>
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />
+	               </div>                       
+                  <div>
+	                 	<textarea name="contactMessage"  id="contactMessage" placeholder="message" rows="10" cols="50" required ></textarea>
+	               </div>                      
+                  <div>
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
 
-  <div class="container">
-    <div class="section">
+      			</fieldset>
+      		</form> <!-- Form End -->
 
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>RPI Game Developement Hub</h4>
-          <p class="left-align light">RPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games CenterRPI Games Center</p>
-        </div>
-      </div>
+            <!-- contact-warning -->
+            <div id="message-warning"></div>
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="icon-ok"></i>Your message was sent, thank you!<br />
+      		</div>
 
-    </div>
-  </div>
+         </div>
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <!-- <h5 class="header col s12 light">DAY 2</h5> -->
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="resources/Day3Photo1.png"></div>
-  </div>
+         <div class="six columns tab-whole right">
 
+            <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
+	         <h3 class="address">Come Visit</h3>
 
-  <div class="container">
-    <div class="section">
+	         <p>
+            1600 Amphitheatre Parkway<br>
+            Mountain View, CA<br>
+            94043 US
+            </p>
 
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>OTHER CLIENTS</h4>
-          <p class="left-align light">OTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTSOTHER CLIENTS</p>
-        </div>
-      </div>
+            <h3>Contact Numbers:</h3>
+			   <p>Phone: (000) 555 1212<br>
+			   	Mobile: (000) 555 0100<br>
+			     	Fax: (000) 555 0101
+			   </p>
+               	
+         </div>     	
 
-    </div>
-  </div>
+      </div> <!-- end row -->     
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <iframe width="560" height="315" src="https://www.youtube.com/watch?v=U4MomPjG3EM" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div> -->
-  </div>
-
-  <footer class="page-footer teal ">
-    <div class="container">
-      <div class="row center">
-        <div class="col l12 s12">
-          <h5 class="white-text">Our Mission</h5>
-          <p class="grey-text text-lighten-4"> The Troy Consulting Club is a professional group of students aiming to aide and assist local businesses in expansion and growth. We design websites and backends, in addition to developing discounts and promotions for various businesses to build their reputations. Our goal is to bring innovation to local businesses to help them compete with the increasingly fast-paced and technological world. We actively seek students with the intent to lead in building the community by applying the skills they cultivate in their respective business and computer career paths. Such experiences with local businesses foster a tighter community and give those members of the club unforgettable and valuable lessons. For example, the Troy Consulting Club provides Business Management Students real applications of management techniques, while Computer Science Students foster the real-life experience with respect to web and app development expertise. The Troy Consulting Club acts as a liaison between the greater Troy community’s business leaders and the burgeoning Business and Computing resources here at RPI. </p>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="footer-copyright">
-      <div class="container center">
-       <a class="brown-text text-lighten-3" href="http://bobmayuze.github.io"> 2017 © RPI Troy Consulting Club All Rights Reserved</a>
-      </div>
-    </div>
-  </footer>
+   </section>  <!-- end contact -->
 
 
+   <!-- Footer
+   ================================================== -->
+   <footer>
 
-  </body>
+      <div class="row">  
+
+      	<div class="twelve columns content group">
+      		
+				<ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>               
+               <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+               <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+               <li><a href="#"><i class="fa fa-flickr"></i></a></li>               
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <hr />
+
+            <div class="info">
+
+            	<div class="footer-logo"></div>
+
+	            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+	            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+	            nibh id elit. 
+	            </p>	        
+
+	         </div>
+
+      	</div>           
+
+         <ul class="copyright">
+         	<li>&copy; Copyright 2015 KREO.</li> 
+         	<li>Design by <a href="http://www.styleshout.com/">Styleshout.</a>.</li>
+         </ul>
+
+         <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#hero">Back to Top<i class="fa fa-angle-up"></i></a>
+         </div>
+
+      </div> <!-- end row -->
+
+   </footer> <!-- end footer -->
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-1.11.3.min.js"></script>
+   <script src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/jquery.flexslider-min.js"></script>
+   <script src="js/jquery.waypoints.min.js"></script>
+   <script src="js/jquery.validate.min.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/jquery.placeholder.min.js"></script>
+   <script src="js/jquery.magnific-popup.min.js"></script>  
+   <script src="js/main.js"></script>
+
+</body>
+
 </html>
