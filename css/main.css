@@ -1754,7 +1754,6 @@ ul#nav li.current a:after {
 #about {
 	background: #111417;
 	padding-top: 120px;
-	padding-bottom: 120px;
 	border-bottom: 1px solid #15191d;
 }
 
@@ -2029,12 +2028,15 @@ ul#nav li.current a:after {
 /* 11. =testimonials
 /* =================================================================== */
 
+
+/* MUST PUT TESTIMONIALS BACK TO ORIGINAL CSS FROM KREO TEMPLATE AFTER GETTING TESTIMONIALS  */
 #testimonials {
-	background: #e4b101;
+	background: url("https://cdn-images-1.medium.com/max/1600/1*2hbArtau2M7P-efWbq4Jqw.jpeg") no-repeat center;
 	padding-top: 90px;
 	padding-bottom: 112px;
 	position: relative;
-	min-height: 198px;
+	background-size: cover;
+	min-height: 630px;
 	width: 100%;
 	overflow: hidden;
 	text-align: center;
